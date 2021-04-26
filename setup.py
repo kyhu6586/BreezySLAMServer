@@ -42,8 +42,8 @@ else:
     arch = 'sisd'
 
 SOURCES = [
-    'pybreezyslam.c', 
-    'pyextension_utils.c', 
+    'python/pybreezyslam.c', 
+    'python/pyextension_utils.c', 
     'python/c/coreslam.c', 
     'python/c/coreslam_' + arch + '.c',
     'python/c/random.c',
