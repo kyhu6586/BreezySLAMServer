@@ -57,7 +57,7 @@ module = Extension('pybreezyslam',
     )
 
 
-setup (name = 'robobrezslam',
+setup (name = 'BreezySLAMServer',
     version = '0.1',
     description = 'Simple, efficient SLAM in Python',
     packages = ['python/breezyslam'],
