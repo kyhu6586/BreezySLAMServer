@@ -53,7 +53,7 @@ class WheeledVehicle(object):
         
         return self.__str__()
         
-    x
+    def computePoseChange(self, timestamp, x_pose, y_pose, theta_pose):
         '''
         Computes pose change based on odometry.
         
