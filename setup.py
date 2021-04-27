@@ -58,7 +58,7 @@ module = Extension('pybreezyslam',
 
 
 setup (name = 'BreezySLAMServer',
-    version = '0.1',
+    version = '0.2',
     description = 'Simple, efficient SLAM in Python',
     packages = ['python/breezyslam'],
     ext_modules = [module],
